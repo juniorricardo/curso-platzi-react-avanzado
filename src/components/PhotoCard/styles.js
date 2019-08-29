@@ -6,7 +6,7 @@ export const Article = styled.article`
 
 `
 
-export const ImgWrapper = styled.a`
+export const ImgWrapper = styled.div`
   display: block;
   height: 0;
   overflow: hidden;
@@ -23,15 +23,6 @@ export const Img = styled.img`
   position: absolute;
   top: 0;
   width: 100%;
-`
-
-export const Button = styled.button`
-  display: flex;
-  align-items: center;
-  padding-top: 8px;
-  & svg {
-    margin-right: 4px;
-  }
 `
 
 export const CardBottom = styled.div`
